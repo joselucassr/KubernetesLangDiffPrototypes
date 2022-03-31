@@ -1,26 +1,11 @@
-import axios from 'axios';
-import fs from 'fs';
-import path from 'path';
+// import axios from 'axios';
+const fs = require('fs');
+const path = require('path');
 
 const brSha = '2fe9c317a5d459667ee9f9d64e4595dcb9740dca';
 const enSha = '9d70cb8f0c888702852d4dbcf76628c047bf1a6f';
 
-interface treeObj {
-  path: string;
-  mode: string;
-  type: string;
-  sha: string;
-  size: number;
-  url: string;
-}
-
-interface parsedTreeObj {
-  name: string;
-  type: string;
-  children: parsedTreeObj[];
-}
-
-async function getRepoTree(): Promise<void> {
+async function getRepoTree() {
   console.time();
 
   // let enTree: treeObj[] = JSON.parse(
@@ -39,23 +24,23 @@ async function getRepoTree(): Promise<void> {
   //   });
   // });
 
-  let brTree: treeObj[] = JSON.parse(
+  let brTree = JSON.parse(
     fs.readFileSync(
       path.join(__dirname, './Get_PT-BR_Docs_Kubernetes-1648687521088.json'),
       'utf-8',
     ),
   );
 
-  let parsedBrTree: parsedTreeObj[] = [];
+  let parsedBrTree = [];
 
-  let parentIndexHeap: number[] = [];
-  let lastDepthLvl: number = 0;
+  let parentIndexHeap = [];
+  let lastDepthLvl = 0;
 
-  brTree.forEach((brObj: treeObj, i: number) => {
-    // console.log([...brObj.path.matchAll(/\//g)].length);
+  for (let i = 0; i < brTree.length; i += 1) {
+    brObj = brTree[i];
 
-    let parsedBrObj: parsedTreeObj = {
-      name: brObj.path.match(/[^/]*$/)![0],
+    let parsedBrObj = {
+      name: brObj.path.match(/[^/]*$/)[0],
       type: brObj.type === 'tree' ? 'dir' : 'file',
       children: [],
     };
@@ -84,7 +69,7 @@ async function getRepoTree(): Promise<void> {
       parentIndexHeap = [];
       lastDepthLvl = 0;
     }
-  });
+  }
 
   fs.writeFileSync(
     path.join(__dirname, './parsedBrTree.json'),

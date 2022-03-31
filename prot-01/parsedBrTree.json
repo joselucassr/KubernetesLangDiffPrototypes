@@ -1,0 +1,1140 @@
+[
+  {
+    "name": "OWNERS",
+    "type": "file",
+    "children": []
+  },
+  {
+    "name": "_common-resources",
+    "type": "dir",
+    "children": [
+      {
+        "name": "index.md",
+        "type": "file",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "_index.html",
+    "type": "file",
+    "children": []
+  },
+  {
+    "name": "blog",
+    "type": "dir",
+    "children": [
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "_posts",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "2020-09-02-scaling-kubernetes-networking-endpointslices.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "2020-12-02-dont-panic-kubernetes-and-docker.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "2022-02-17-updated-dockershim-faq.md",
+        "type": "file",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "case-studies",
+    "type": "dir",
+    "children": [
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "chinaunicom",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "chinaunicom_featured_logo.png",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "index.html",
+        "type": "file",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "community",
+    "type": "dir",
+    "children": [
+      {
+        "name": "_index.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "code-of-conduct.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "static",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "README.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cncf-code-of-conduct.md",
+        "type": "file",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "docs",
+    "type": "dir",
+    "children": [
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "_search.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "concepts",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "architecture",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cloud-controller.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "control-plane-node-communication.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "controller.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cluster-administration",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "addons.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "certificates.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cluster-administration-overview.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "kubelet-garbage-collection.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "logging.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "networking.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "proxies.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "system-logs.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "system-metrics.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "configuration",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "configmap.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "manage-resources-containers.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "organize-cluster-access-kubeconfig.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "overview.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "secret.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "containers",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "container-environment.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "container-lifecycle-hooks.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "images.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "runtime-class.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "extend-kubernetes",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "api-extension",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "apiserver-aggregation.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "compute-storage-net",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "network-plugins.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "operator.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "overview",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "components.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "what-is-kubernetes.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "working-with-objects",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "field-selectors.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "names.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "namespaces.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "policy",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "limit-range.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "resource-quotas.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "scheduling-eviction",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "kube-scheduler.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "pod-overhead.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "taint-and-toleration.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "security",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "overview.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "services-networking",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "network-policies.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "storage",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "persistent-volumes.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "workloads",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "controllers",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cron-jobs.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "contribute",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "analytics.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "home",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "supported-doc-versions.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "reference",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "access-authn-authz",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "authentication.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "bootstrap-tokens.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "glossary",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "addons.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "alternate-x509-schemes.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cgroup.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cloud-controller-manager.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cluster.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cncf.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cni.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "configmap.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "container-env-variables.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "container-runtime.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "container.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "containerd.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "control-plane.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "controller.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cri-o.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cri.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "customresourcedefinition.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "etcd.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "eviction.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "image.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "job.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "kerberos.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "keystone.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "kube-apiserver.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "kube-controller-manager.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "kube-proxy.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "kube-scheduler.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "kubelet.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "ldap.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "namespace.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "node.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "operator-pattern.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "pod.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "saml.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "secret.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "selector.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "service.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "static-pod.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "tls-common-name.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "uid.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "username.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "volume.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "kubectl",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cheatsheet.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "ports-and-protocols.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "tools.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "setup",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "production-environment",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "tools",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "kubeadm",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "install-kubeadm.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "sitemap.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "tasks",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "configmap-secret",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "managing-secret-using-config-file.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "managing-secret-using-kubectl.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "managing-secret-using-kustomize.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "templates",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "feature-state-alpha.txt",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "feature-state-beta.txt",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "feature-state-deprecated.txt",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "feature-state-stable.txt",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "tutorials",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "hello-minikube.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "kubernetes-basics",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "create-cluster",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cluster-interactive.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "cluster-intro.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "deploy-app",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "deploy-interactive.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "deploy-intro.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "explore",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "explore-interactive.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "explore-intro.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "expose",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "expose-interactive.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "expose-intro.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "scale",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "_index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "scale-interactive.html",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "scale-intro.html",
+        "type": "file",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "examples",
+    "type": "dir",
+    "children": [
+      {
+        "name": "admin",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "logging",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "fluentd-sidecar-config.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "two-files-counter-pod-agent-sidecar.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "two-files-counter-pod-streaming-sidecar.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "two-files-counter-pod.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "application",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "job",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "cronjob.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "debug",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "counter-pod.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "pods",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "pod-with-toleration.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "policy",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "priority-class-resourcequota.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "service",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "networking",
+        "type": "dir",
+        "children": []
+      },
+      {
+        "name": "network-policy-allow-all-egress.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "network-policy-allow-all-ingress.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "network-policy-default-deny-all.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "network-policy-default-deny-egress.yaml",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "network-policy-default-deny-ingress.yaml",
+        "type": "file",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "includes",
+    "type": "dir",
+    "children": [
+      {
+        "name": "index.md",
+        "type": "file",
+        "children": []
+      },
+      {
+        "name": "task-tutorial-prereqs.md",
+        "type": "file",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "partners",
+    "type": "dir",
+    "children": [
+      {
+        "name": "_index.html",
+        "type": "file",
+        "children": []
+      }
+    ]
+  }
+]
